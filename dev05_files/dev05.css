@@ -1,0 +1,126 @@
+/*! 
+ * Team. Develable
+ * Whatever you imagine, We develop.
+ * Since 2018.07.06
+ * 
+ * Button Design by. HwaHyang, Tilto of Develable.
+ * Copyright 2018-2020 Develable.
+ *
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ .dev05-base {
+  font-family: "Segoe UI";
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content : center;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 30px;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.dev05-round {
+  font-size: 15px;
+  border-radius: 10rem;
+  padding: 0.45rem 0.65rem;
+}
+
+.dev05-square-round {
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 0.45rem 0.65rem;
+}
+
+.dev05-square {
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 0.45rem 0.65rem;
+}
+
+.dev05-login {
+  color: #fff;
+  background-color: #1525ff;
+  border-color: #fff;
+}
+
+.dev05-login:hover {
+  color: #fff;
+  background-color: #0751E8;
+  border-color: #e6e6e6;
+}
+
+.dev05-login.disabled, .dev05-login:disabled {
+  pointer-events: none;
+  color: #fff;
+  background-color: #808080;
+  border-color: #fff;
+}
+
+vr.line {
+  border-left: 2px solid white;
+  height: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text {
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/*!
+ * ICON Design by. Wide7 of Develable.
+ * Copyright 2018-2020 Develable.
+ * 
+ * ICON Convert by. icomoon (https://icomoon.io)
+ */
+
+@font-face {
+  font-family: 'dev05-ico';
+  src:  url('./dev05.eot?mb7lt3');
+  src:  url('./dev05.eot?mb7lt3#iefix') format('embedded-opentype'), url('./dev05.ttf?mb7lt3') format('truetype'), url('./dev05.woff?mb7lt3') format('woff'), url('./dev05.svg?mb7lt3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="dev05-ico-"], [class*=" dev05-ico-"] {
+  font-family: 'dev05-ico' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dev05-ico-dev05:before {
+  content: "\deb05";
+}
+
+/* End of CSS */
