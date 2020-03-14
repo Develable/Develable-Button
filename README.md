@@ -14,6 +14,8 @@ Develable 로그인 버튼 배포용 파일입니다.
 
 # Usage
 
+GitHub의 파일을 다운받을 필요 없이, 아래와 같이 CDN에서 불러오시면 됩니다.
+
 ```html
 <script src="//code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 <script src="//login-button.develable.xyz/dev05.js" type="text/javascript"></script>
