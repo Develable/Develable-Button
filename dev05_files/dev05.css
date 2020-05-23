@@ -1,5 +1,4 @@
-/*! 
- * Team. Develable
+/* Team. Develable
  * Whatever you imagine, We develop.
  * Since 2018.07.06
  * 
@@ -79,10 +78,7 @@
 vr.line {
   border-left: 2px solid white;
   height: 25px;
-  margin-left: 7px;
-  margin-right: 7px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto 7px auto 7px;
 }
 
 .text {
