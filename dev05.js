@@ -24,13 +24,13 @@ for (var i = 0; i < loginButtons.length; i++) {
     }
     $(button).each(function () {
         if ($(this).hasClass("dev05-round") === true) {
-            $(this).html("<a class=\"dev05-base dev05-login dev05-round\" href=\"" + link + "\"><i class=\"dev05-ico-dev05\"></i><vr class=\"line\"></vr><span class=\"text\">Develable로 로그인</span></a>");
+            $(this).html("<a class=\"dev05-base dev05-login dev05-round\" href=\"" + link + "\"><i class=\"dev05-ico-dev05\"></i><hr class=\"dev05-line\"></hr><span class=\"text\">Develable로 로그인</span></a>");
         }
         if ($(this).hasClass("dev05-square-round") === true) {
-            $(this).html("<a class=\"dev05-base dev05-login dev05-square-round\" href=\"" + link + "\"><i class=\"dev05-ico-dev05\"></i><vr class=\"line\"></vr><span class=\"text\">Develable로 로그인</span></a>");
+            $(this).html("<a class=\"dev05-base dev05-login dev05-square-round\" href=\"" + link + "\"><i class=\"dev05-ico-dev05\"></i><hr class=\"dev05-line\"></hr><span class=\"text\">Develable로 로그인</span></a>");
         }
         if ($(this).hasClass("dev05-square") === true) {
-            $(this).html("<a class=\"dev05-base dev05-login dev05-square\" href=\"" + link + "\"><i class=\"dev05-ico-dev05\"></i><vr class=\"line\"></vr><span class=\"text\">Develable로 로그인</span></a>");
+            $(this).html("<a class=\"dev05-base dev05-login dev05-square\" href=\"" + link + "\"><i class=\"dev05-ico-dev05\"></i><hr class=\"dev05-line\"></hr><span class=\"text\">Develable로 로그인</span></a>");
         }
     });
 }
