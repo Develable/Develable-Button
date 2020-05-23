@@ -4,6 +4,7 @@
  * Since 2018.07.06
  * 
  * Button Design by. HwaHyang, Tilto of Develable.
+ * ICON Design by. Wide7 of Develable.
  * Copyright 2018-2020 Develable.
  *
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -12,12 +13,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- .dev05-base {
+.dev05-base {
   font-family: "Segoe UI";
   display: flex;
   flex-flow: row;
   justify-content: center;
-  align-content : center;
+  align-content: center;
   text-decoration: none;
   font-weight: 400;
   text-align: center;
@@ -63,11 +64,12 @@
 
 .dev05-login:hover {
   color: #fff;
-  background-color: #0751E8;
+  background-color: #0751e8;
   border-color: #e6e6e6;
 }
 
-.dev05-login.disabled, .dev05-login:disabled {
+.dev05-login.disabled,
+.dev05-login:disabled {
   pointer-events: none;
   color: #fff;
   background-color: #808080;
@@ -90,23 +92,17 @@ vr.line {
   margin-bottom: auto;
 }
 
-/*!
- * ICON Design by. Wide7 of Develable.
- * Copyright 2018-2020 Develable.
- * 
- * ICON Convert by. icomoon (https://icomoon.io)
- */
-
 @font-face {
   font-family: 'dev05-ico';
-  src:  url('./dev05.eot?mb7lt3');
-  src:  url('./dev05.eot?mb7lt3#iefix') format('embedded-opentype'), url('./dev05.ttf?mb7lt3') format('truetype'), url('./dev05.woff?mb7lt3') format('woff'), url('./dev05.svg?mb7lt3#icomoon') format('svg');
+  src: url('./dev05.eot?mb7lt3');
+  src: url('./dev05.eot?mb7lt3#iefix') format('embedded-opentype'), url('./dev05.ttf?mb7lt3') format('truetype'), url('./dev05.woff?mb7lt3') format('woff'), url('./dev05.svg?mb7lt3#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="dev05-ico-"], [class*=" dev05-ico-"] {
+[class^="dev05-ico-"],
+[class*=" dev05-ico-"] {
   font-family: 'dev05-ico' !important;
   font-style: normal;
   font-weight: normal;
@@ -119,8 +115,6 @@ vr.line {
   margin-bottom: auto;
 }
 
-.dev05-ico-dev05:before {
+.dev05-ico-dev05::before {
   content: "\deb05";
 }
-
-/* End of CSS */
