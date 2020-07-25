@@ -9,7 +9,7 @@
 var objLink = document.createElement("link");
 objLink.rel = "stylesheet";
 objLink.type = "text/css";
-objLink.href = "./dev05_files/dev05.css";
+objLink.href = "//login-button.develable.xyz/dev05_files/dev05.css";
 
 document.head.appendChild(objLink);
 
