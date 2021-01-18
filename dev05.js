@@ -3,13 +3,15 @@
  * Whatever you imagine, We develop.
  * Since 2018.07.06
  * 
- * Copyright 2018-2020 Develable.
+ * Copyright 2018-2021 Develable.
+ * 
+ * Github : https://github.com/Develable/Develable-Button
  */
 
 var objLink = document.createElement("link");
 objLink.rel = "stylesheet";
 objLink.type = "text/css";
-objLink.href = "//login-button.develable.xyz/dev05_files/dev05.css";
+objLink.href = "https://login-button.develable.xyz/dev05_files/dev05.css";
 
 document.head.appendChild(objLink);
 
